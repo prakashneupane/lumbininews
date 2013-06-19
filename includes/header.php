@@ -17,7 +17,7 @@
       <h1><a href="#"><strong>N</strong>ews<strong>P</strong>ost</a></h1>
       <p>...for reliable news</p>
     </div>
-    <div class="fl_right"><a href="#"><img src="images/demo/468x60.gif" alt="" /></a></div>
+    <div class="fl_right"><a href="#"><img src="images/728.jpg" alt="" /></a></div>
     <br class="clear" />
   </div>
 </div>
