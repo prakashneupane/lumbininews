@@ -5,6 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta http-equiv="imagetoolbar" content="no" />
 <link rel="stylesheet" href="styles/style.css" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="scripts/jquery-1.4.1.min.js"></script>
 <!--<script type="text/javascript" src="scripts/jquery.easing.1.3.js"></script>-->
 <script type="text/javascript" src="scripts/jquery.timers.1.2.js"></script>
@@ -119,8 +120,9 @@ $("ul#topnav li").hover(function() { //Hover over event on list item
           <li><a href="#">Morbitincidunt maurisque eros molest</a></li>
       </ul>
     </div>
-    <div class="fl_right_adv">
-      <h3>Area for advertisement</h3>
+    <div class="fl_right_vids">
+      <h2><a href="#">Videos &raquo;</a></h2>
+      <iframe width="312" height="230" src="http://www.youtube.com/embed/GB57anEa4Q4" frameborder="0" allowfullscreen></iframe>
     </div>
    
 
