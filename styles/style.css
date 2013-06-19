@@ -13,7 +13,6 @@ body{
 	
         background: url(../images/bg.png)repeat;
 	}
-li{line-height: 1.8em;}
 img{display:block; margin:0; padding:0; border:none;}
 .justify{text-align:justify;}
 .bold{font-weight:bold;}
@@ -26,7 +25,7 @@ br.clear{clear:both; margin-top:-15px;}
 a{outline:none; text-decoration:none; color:#cc6633; }
 
 .fl_left{float:left; margin-left:5px; }
-.fl_right{float:right; margin-left:36px;}
+.fl_right{float:right; margin-left:11px;}
 
 .imgl, .imgr{border:1px solid #C7C5C8; padding:5px;}
 .imgl{float:left; margin:0 8px 8px 0; clear:left;}
@@ -155,8 +154,8 @@ overflow: hidden;
 .fl_right_adv{
 	display:block;
 	float:right;
-	width:312px;
-	height:230px;
+	width:328px;
+	height:270px;
 	margin-top:10px;
 	margin-right:7px;
 	overflow:hidden;
@@ -165,8 +164,8 @@ overflow: hidden;
         .fl_right_vids{
 	display:block;
 	float:right;
-	width:312px;
-	height:230px;
+	width:326px;
+	height:305px;
 	margin-top:10px;
 	margin-right:7px;
 	overflow:hidden;
@@ -201,7 +200,7 @@ overflow: hidden;
 
 
 /* ----------------------------------------------BreadCrumb-------------------------------------*/
-
+.videoframe{width:328px; height: 232px; background: #000;}
 #breadcrumb{
 	padding:20px 0;
 	
@@ -225,7 +224,7 @@ overflow: hidden;
 .content{
 	display:block;
 	float:left;
-	width:670px;
+	width:630px;
 	margin-left:5px;
 	}
 
@@ -257,7 +256,7 @@ overflow: hidden;
 .column{
 	display:block;
 	float:right;
-	width:300px;
+	width:327px;
 	margin-right:5px;
 	}
 
@@ -406,7 +405,11 @@ overflow: hidden;
         margin-top:10px;
         
 	}
-
+        .fl_left ul{padding:0px !important; margin:0px; !important; }
+        .fl_right ul{padding:0px !important; margin:0px; !important;}
+        .fl_left li:last-child,.fl_right li:last-child{border:none;}
+        .fl_left li { list-style:url(../images/menu_list.png) inside;display: list-item; border-bottom: 1px dotted #ccc; line-height: 2.5em;}
+        .fl_right li { list-style:url(../images/menu_list.png) inside; display: list-item; border-bottom: 1px dotted #ccc; line-height: 2.5em;}
 #hpage_cats .fl_left img, #hpage_cats .fl_right img{
 	float:left;
 	margin:0 10px 0 0;
@@ -530,15 +533,17 @@ border-bottom: 1px dotted #E8A665;
 #footer .footbox{
 	display:block;
 	float:left;
-	width:203px;
-	margin:0 8px 0 5px;
+	width:230px;
+	margin:0px 10px;
 	padding:0;
 	}
+        .footbox li,.footbox_last li{list-style: url(../images/menu_list.png) inside; border-bottom: 1px dotted #ccc; line-height: 2em;}
+        .footbox li:last-child,.footbox_last li:last-child{border: none;}
 	.footbox_last{
 	display:block;
 	float:left;
-	width:295px;
-	margin:0 8px 0 5px;
+	width:225px;
+	margin:0px 5px;
 	padding:0;
 	}
 
@@ -609,19 +614,6 @@ div.col8{border:none; background:#c45f2d;}
 	color:#cfcfcf;
 	}
 	p.fl_right{margin-right:7px;}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	

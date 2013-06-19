@@ -83,22 +83,7 @@
         <li><a href="">Contact</a></li>
     </ul>
 	
-<div id="search">
-     <form action="#" method="post">
-        <fieldset>
-         
-         <!-- <input type="text" value="Search options"  onfocus="this.value=(this.value=='Search options')? '' : this.value ;" />-->
-          <select >
-          <option >Search Options</option>
-          <option>VDC's</option>
-           <option>Districst</option>
-               <option>Zones</option>
-                   <option>Development Regions</option>
-          </select>
-          <input type="submit" name="go" id="go" value="Search" />
-        </fieldset>
-      </form>
-    </div>
+
     <div class="clear"></div>
 </div>
 </div>

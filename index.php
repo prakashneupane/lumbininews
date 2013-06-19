@@ -122,7 +122,9 @@ $("ul#topnav li").hover(function() { //Hover over event on list item
     </div>
     <div class="fl_right_vids">
       <h2><a href="#">Videos &raquo;</a></h2>
-      <iframe width="312" height="230" src="http://www.youtube.com/embed/GB57anEa4Q4" frameborder="0" allowfullscreen></iframe>
+      <div class="videoframe">
+      <iframe  src="http://www.youtube.com/embed/GB57anEa4Q4" frameborder="0" allowfullscreen></iframe>
+    </div>
     </div>
    
 
@@ -162,60 +164,72 @@ $("ul#topnav li").hover(function() { //Hover over event on list item
 </div>
 <!-- ####################################################################################################### -->
 <div class="wrapper">
-  <div class="container">
-    <div class="content">
-      <div id="hpage_latest">
-        
-        <ul>
-      
-          <li> <h2><a href="#">Sports &raquo;</a></h2>
-          <img src="images/demo/190x130.gif" alt="" />
-            <p>Nullamlacus dui ipsum conseqlo borttis non euisque morbipen a sdapibulum orna.</p>
-            
-            <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
-            <ul>
-            <li><a href="#">Nullamlacus dui ipsum conseqlo</a></li>
-              <li><a href="#">Nullamlacus dui ipsum conseqlo</a></li>
-                <li><a href="#">Nullamlacus dui ipsum conseqlo</a></li>
-                  <li><a href="#">Nullamlacus dui ipsum conseqlo</a></li>
-                  
-            </ul>
-          </li>
-          <li>
-           <h2><a href="#">Economic &raquo;</a></h2>
-          <img src="images/demo/190x130.gif" alt="" />
-            <p>Nullamlacus dui ipsum conseqlo borttis non euisque morbipen a sdapibulum orna.</p>
-           
-            <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
-            <ul>
-            <li><a href="#">Nullamlacus dui ipsum conseqlo</a></li>
-              <li><a href="#">Nullamlacus dui ipsum conseqlo</a></li>
-                <li><a href="#">Nullamlacus dui ipsum conseqlo</a></li>
-                  <li><a href="#">Nullamlacus dui ipsum conseqlo</a></li>
-                  
-            </ul>
-          </li>
-          <li class="last">
-           <h2><a href="#">Health &raquo;</a></h2>
-          <img src="images/demo/190x130.gif" alt="" />
-            <p>Nullamlacus dui ipsum conseqlo borttis non euisque morbipen a sdapibulum orna.</p>
-           
-            <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
-            <ul>
-            <li><a href="#">Nullamlacus dui ipsum conseqlo</a></li>
-              <li><a href="#">Nullamlacus dui ipsum conseqlo</a></li>
-                <li><a href="#">Nullamlacus dui ipsum conseqlo</a></li>
-                  <li><a href="#">Nullamlacus dui ipsum conseqlo</a></li>
-                  
-            </ul>
-          </li>
-        </ul>
-        <br class="clear" />
-      </div>
+  
+  <div id="hpage_cats">
+    <div class="fl_left">
+      <h2><a href="#">Environment &raquo;</a></h2>
+      <img src="images/demo/60x60.gif" align="left" alt="" />
+      <p><strong><a href="#">Indonectetus facilis leo.</a></strong></p>
+      <p>Morbitincidunt maurisque eros molest nunc anteget sed vel lacus mus semper. </p>
+      <ul>
+      <li><a href="#">Morbitincidunt maurisque eros molest</a></li>
+       <li><a href="#">Morbitincidunt maurisque eros molest</a></li>
+        <li><a href="#">Morbitincidunt maurisque eros molest</a></li>
+         <li><a href="#">Morbitincidunt maurisque eros molest</a></li>
+          <li><a href="#">Morbitincidunt maurisque eros molest</a></li>
+      </ul>
     </div>
-    <div class="column">
-      <div class="holder"><a href="#"><img src="images/demo/300x250.gif" alt="Horoscope" /></a></div>
-      <div class="holder"><a href="#"><img src="images/demo/300x80.gif" alt="" /></a></div>
+    <div class="fl_right">
+      <h2><a href="#">Technology &raquo;</a></h2>
+      <img src="images/demo/60x60.gif" alt="" />
+      <p><strong><a href="#">Indonectetus facilis leo.</a></strong></p>
+      <p>Morbitincidunt maurisque eros molest nunc anteget sed vel lacus mus semper. </p>
+      <ul>
+      <li><a href="#">Morbitincidunt maurisque eros molest</a></li>
+       <li><a href="#">Morbitincidunt maurisque eros molest</a></li>
+        <li><a href="#">Morbitincidunt maurisque eros molest</a></li>
+         <li><a href="#">Morbitincidunt maurisque eros molest</a></li>
+          <li><a href="#">Morbitincidunt maurisque eros molest</a></li>
+      </ul>
+    </div>
+    <div class="fl_right_vids">
+      <h2><a href="#">Videos &raquo;</a></h2>
+      <div class="videoframe">
+      <iframe src="http://www.youtube.com/embed/GB57anEa4Q4" frameborder="0" allowfullscreen></iframe>
+    </div>
+    </div>
+   
+
+    <br class="clear" />
+    <div class="fl_left">
+      <h2><a href="#">Sports &raquo;</a></h2>
+      <img src="images/demo/60x60.gif" alt="" />
+     <p><strong><a href="#">Indonectetus facilis leo.</a></strong></p>
+      <p>Morbitincidunt maurisque eros molest nunc anteget sed vel lacus mus semper. </p>
+      <ul>
+      <li><a href="#">Morbitincidunt maurisque eros molest</a></li>
+       <li><a href="#">Morbitincidunt maurisque eros molest</a></li>
+        <li><a href="#">Morbitincidunt maurisque eros molest</a></li>
+         <li><a href="#">Morbitincidunt maurisque eros molest</a></li>
+          <li><a href="#">Morbitincidunt maurisque eros molest</a></li>
+      </ul>
+    </div>
+    <div class="fl_right">
+      <h2><a href="#">Politics &raquo;</a></h2>
+      <img src="images/demo/60x60.gif" alt="" />
+     <p><strong><a href="#">Indonectetus facilis leo.</a></strong></p>
+      <p>Morbitincidunt maurisque eros molest nunc anteget sed vel lacus mus semper. </p>
+      <ul>
+      <li><a href="#">Morbitincidunt maurisque eros molest</a></li>
+       <li><a href="#">Morbitincidunt maurisque eros molest</a></li>
+        <li><a href="#">Morbitincidunt maurisque eros molest</a></li>
+         <li><a href="#">Morbitincidunt maurisque eros molest</a></li>
+          <li><a href="#">Morbitincidunt maurisque eros molest</a></li>
+      </ul>
+      
+    </div>
+     <div class="fl_right_adv">
+     <h3>Area for advertisement</h3>
     </div>
     <br class="clear" />
   </div>
